@@ -14,7 +14,7 @@ spec:
         app: webserver
     spec:
       containers:
-      - name: nginx
-        image: nginx
+      - name: freeciv
+        image: freeciv/freeciv-web
         ports:
-        - containerPort: 80  # Specifies the port the container exposes
+        - containerPort: 8080  # Specifies the port the container exposes
