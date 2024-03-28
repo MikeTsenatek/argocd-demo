@@ -17,4 +17,4 @@ spec:
       - name: kuard
         image: gcr.io/kuar-demo/kuard-amd64:green
         ports:
-        - containerPort: 80  # Specifies the port the container exposes
+        - containerPort: 8080  # Specifies the port the container exposes
