@@ -9,4 +9,4 @@ spec:
   ports:
     - protocol: TCP
       port: 80  # The port the service is exposed on.
-      targetPort: 80  # The target port on the Pod containers.
+      targetPort: 3000  # The target port on the Pod containers.

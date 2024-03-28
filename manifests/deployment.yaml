@@ -7,14 +7,14 @@ spec:
   replicas: 1
   selector:
     matchLabels:
-      app: webserver
+      app: agario
   template:
     metadata:
       labels:
-        app: webserver
+        app: agario
     spec:
       containers:
-      - name: nginx
-        image: nginx
+      - name: agario
+        image: agarioclone_agar
         ports:
-        - containerPort: 80  # Specifies the port the container exposes
+        - containerPort: 3000  # Specifies the port the container exposes
