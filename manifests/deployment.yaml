@@ -14,7 +14,7 @@ spec:
         app: webserver
     spec:
       containers:
-      - name: nginx
-        image: nginx
+      - name: kuard
+        image: gcr.io/kuar-demo/kuard-amd64:green
         ports:
         - containerPort: 80  # Specifies the port the container exposes
