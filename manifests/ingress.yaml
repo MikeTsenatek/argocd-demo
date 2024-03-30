@@ -5,7 +5,7 @@ metadata:
   namespace: easterhegg21
 spec:
   rules:
-  - host: webserver-127-0-0-1.nip.io
+  - host: webserver-192-168-49-2.nip.io
     http:
       paths:
       - path: /
